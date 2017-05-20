@@ -19,7 +19,7 @@
 <?php
 
 if(!$_ENV["VCAP_SERVICES"]){ //local dev
-    $mysql_server_name = "172.17.0.21:3306";
+    $mysql_server_name = "172.30.81.213:3306";
     $mysql_username = "root";
     $mysql_password = "solucion";
     $mysql_database = "sampledb";
