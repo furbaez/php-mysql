@@ -21,7 +21,7 @@
 if(!$_ENV["VCAP_SERVICES"]){ //local dev
     $mysql_server_name = "172.17.0.21:3306";
     $mysql_username = "root";
-    $mysql_password = "";
+    $mysql_password = "solucion";
     $mysql_database = "sampledb";
 } else { //running in Bluemix
     $vcap_services = json_decode($_ENV["VCAP_SERVICES" ]);
